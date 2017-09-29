@@ -45,7 +45,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     LocationManager lm;
     double lat, lng;
     ArrayList<Data_Event> countries = new ArrayList<Data_Event>();
-    private String path = "http://192.168.0.5/ProjectJ/test.php";
+    private String path = "http://10.58.124.72/ProjectJ/test.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
